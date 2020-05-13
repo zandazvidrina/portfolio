@@ -23,10 +23,11 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            I am a software developer with 4+ years of industry experience. I am
+            knowledgeable in Angular, C# and SQL. I have demonstrated history of
+            working with Selenium WebDriver, Ready!Api and other tools for
+            automated testing. I've finished a Master's Degree focused in IT
+            project management.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -49,72 +50,149 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
+              <h3 className="mb-0">Full stack developer</h3>
+              <div className="subheading mb-3">Trade Me</div>
+              <p></p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">October 2019 - Present</span>
+            </div>
+          </div>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Test Analyst</h3>
+              <div className="subheading mb-3">Trade Me</div>
+              <p>Main responsibilities:</p>
+              <ul>
+                <li>
+                  Plan and execute manual testing for projects including
+                  functional, regression, API testing
+                </li>
+                <li>
+                  Design and implement Automation frameworks like Page Object
+                  model framework for Selenium Webdriver UI automation using
+                  XPATH and CSS selectors
+                </li>
+                <li>
+                  Setup environment from scratch for API testing in Ready!API
+                  for my project
+                </li>
+                <li>
+                  Create and maintain API automation tests using Ready!API and
+                  Gherkin
+                </li>
+                <li>
+                  Create and maintain UI automation tests using Selenium
+                  WebDriver with C#, .NET framework, xunit, Specflow
+                </li>
+                <li>Use Mercurial for code base versioning and branching</li>
+                <li>Configure and use Jenkins for continuous integration</li>
+                <li>
+                  Be responsible for deployments to production and checking
+                  errors in Splunk
+                </li>
+                <li>
+                  Use T-SQL for database queries and write scripts for database
+                  refreshes to help and support testing
+                </li>
+                <li>
+                  Be an active member for planning future projects, priority of
+                  tasks
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">March 2018 - October 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
-              </p>
+              <h3 className="mb-0">Test Analyst</h3>
+              <div className="subheading mb-3">Linedata</div>
+              <p>Main responsibilities:</p>
+              <ul>
+                <li>
+                  Mantain the company's automation test suite and add new tests
+                  to it using HP UFT
+                </li>
+                <li>Raise defects in internal Defect Tracking System</li>
+                <li>
+                  Perform complex tests for QA stories and change requests
+                </li>
+                <li>Write scripts in PL/SQL</li>
+                <li>
+                  Create test plans based on specification and other QA
+                  documentation
+                </li>
+                <li>
+                  Work in SCRUM teams using AGILE methodology and work closely
+                  with development team and business analysts
+                </li>
+                <li>
+                  Work with Windows services and Build electronic trading test
+                  environments
+                </li>
+                <li>
+                  Test real-time data using Bloomberg Terminal and Web Services
+                </li>
+                <li>Work with Remote servers to resolve issues</li>
+                <li>Deployment of new builds in test environments</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">July 2015 - July 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
+              <h3 className="mb-0">Junior System Analyst</h3>
+              <div className="subheading mb-3">Exigen Services</div>
+              <p>Main responsibilities:</p>
+              <ul>
+                <li>
+                  Revise Product Design Specification for tax information system
+                </li>
+                <li>
+                  Compare GUI results with records in database using SQL
+                  statements
+                </li>
+                <li>Log defects in JIRA</li>
+                <li>
+                  Revise outdated test cases according to newest versions of use
+                  cases and new requirements
+                </li>
+                <li>Manually test recent changes</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">May 2015 - Jun 2015</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
+              <h3 className="mb-0">Student Council president</h3>
+              <div className="subheading mb-3">
+                Ventspils University College
+              </div>
+              <p>Main responsibilities:</p>
+              <ul>
+                <li>Manage Student Body and motivating the team</li>
+                <li>Plan the budget</li>
+                <li>Supervise the work of Student Body committees</li>
+                <li>
+                  Attend official meetings with the academic administration
+                </li>
+                <li>Work with students to resolve problems</li>
+                <li>Speaking publicly at school events</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">February 2013 - April 2014</span>
             </div>
           </div>
         </div>
@@ -131,24 +209,38 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Liepaja University</h3>
+              <div className="subheading mb-3">
+                Master's Degree in IT project management
+              </div>
+              <div>Project Management</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">2014 - 2017</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Ventspils University College</h3>
+              <div className="subheading mb-3">
+                Bachelor's degree in Information Technology
+              </div>
+              <div>Computer Science</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2011 - 2014</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Riga State Gymnasium No. 1</h3>
+              <div className="subheading mb-3">High school Diploma</div>
+              <div>Mathematics and Computer Science</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">2005 - 2011</span>
             </div>
           </div>
         </div>
@@ -180,26 +272,16 @@ const IndexPage = () => (
               <i className="fab fa-angular"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-less"></i>
+            <i class="devicon-csharp-plain"></i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
+         
+          
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
             </li>
@@ -251,48 +333,6 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
-        </div>
-      </section>
     </div>
   </Layout>
 );
