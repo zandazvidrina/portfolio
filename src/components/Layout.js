@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import panda from '../assets/icons/panda.ico';
 
 import '../assets/sass/resume.scss';
 
@@ -28,6 +29,7 @@ class Layout extends Component {
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
+              <link rel="icon" href={panda}/>
               <html lang="en" />
             </Helmet>
             <div className={'main-body'}>{children}</div>

@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/zanda.png',
+  manifestIcon: 'src/assets/icons/panda.ico',
   firstName: 'Zanda',
   lastName: 'Zvidrina',
   // social

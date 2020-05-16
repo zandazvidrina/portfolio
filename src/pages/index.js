@@ -277,33 +277,9 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
-            <li className="list-inline-item">
-            <i class="devicon-csharp-plain"></i>
-            </li>
-         
-          
+
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
-            </li>
-          </ul>
-
-          <div className="subheading mb-3">Workflow</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
             </li>
           </ul>
         </div>
@@ -318,16 +294,18 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            I love adventures and spontaneous ideas. I tend to do things just
+            for the fun of it. I enjoy travelling, hiking, camping and I am a
+            fan of coastal walks.
+          </p>
+          <p>
+            I love BBQ - sun, friends, beer, meat. I also like to cook, try to
+            make things from scratch.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            I'm very interested in self-growth and psychology behind most
+            things. Some of my free time I spend playing board games with my
+            friends.
           </p>
         </div>
       </section>
