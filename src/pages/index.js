@@ -301,9 +301,6 @@ const IndexPage = () => (
               <i className="fab fa-angular"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
 
