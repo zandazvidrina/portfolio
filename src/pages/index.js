@@ -24,7 +24,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             I am a software developer with 4+ years of industry experience. I am
-            knowledgeable in Angular, C# and SQL. I have demonstrated history of
+            knowledgeable in Angular, CSS, HTML, C# and SQL. I have demonstrated history of
             working with Selenium WebDriver, Ready!Api and other tools for
             automated testing. I've finished a Master's Degree focused in IT
             project management.
@@ -303,9 +303,8 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
-
             <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
+              <i class="fab fa-yarn"></i>
             </li>
           </ul>
         </div>
