@@ -54,7 +54,36 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Full stack developer</h3>
               <div className="subheading mb-3">Trade Me</div>
-              <p></p>
+              <p>Main responsibilities:</p>
+              <ul>
+                <li>
+                  Be responsible for developing UI pages for Marketplace and
+                  Property using Angular 7/8, HTML5, CSS3, Typescript and SASS
+                </li>
+                <li>
+                  Make Responsive Web Designs and think about accessibility
+                </li>
+                <li>
+                  Write and maintain unit tests using Jest and Marbles
+                  Frameworks
+                </li>
+                <li>
+                  Use RxJS Observables to handle multiple values over time
+                </li>
+                <li>
+                  Make code changes to API and backend using VB, C# and ASP.NET
+                </li>
+                <li>Use JIRA for bug tracking</li>
+                <li>
+                  For version control use Mercurial for continuous integration
+                  use Jenkins and Teamcity
+                </li>
+                <li>
+                  Use Angular Router to enable navigation from one view to the
+                  next as customer performs application tasks.
+                </li>
+                <li>Use Sentry for error monitoring</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">October 2019 - Present</span>
