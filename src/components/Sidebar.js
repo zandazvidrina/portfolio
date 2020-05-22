@@ -16,11 +16,19 @@ export class Sidebar extends Component {
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
       ],
+      collapsed: true
     };
   }
-
+toggleNavbar = ()=>{
+  this.setState({
+    collapsed: !this.state.collapsed
+  });
+}
   render() {
-    const { tabs } = this.state;
+    const { collapsed, tabs } = this.state;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+  
     return (
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -39,17 +47,18 @@ export class Sidebar extends Component {
           </span>
         </a>
         <button
-          className="navbar-toggler"
+          className={`${classTwo}`}
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={this.toggleNavbar}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className={`${classOne}`} id="navbarSupportedContent">
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="active"
@@ -59,7 +68,7 @@ export class Sidebar extends Component {
             {tabs.map((tab, i) => {
               const { href, content } = tab;
               return (
-                <li className="nav-item" key={href}>
+                <li onClick={this.toggleNavbar} className="nav-item" key={href}>
                   <Scroll type="id" element={href}>
                     <a className="nav-link" href={`#${href}`}>
                       {content}
