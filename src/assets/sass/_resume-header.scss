@@ -1,10 +1,29 @@
-@media (max-width: 510px) {
-    .resumeTitle {
-        font-size:4.5rem;
-    }
+.zz-resumeTitle {
+  font-size: 4rem;
 }
-@media (max-width: 390px) {
-    .resumeTitle {
-        font-size:4rem;
-    }
+.zz-img-header {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.8rem solid fade-out($primary, 0.7);
+}
+.zz-heading-container, .zz-subheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: $size-md) {
+  .zz-header-container {
+    display: flex;
+  }
+}
+@media (min-width: $size-lg) {
+  .zz-img-header {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .zz-seperator {
+    display: none;
+  }
 }

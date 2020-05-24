@@ -1,5 +1,5 @@
 import React from 'react';
-
+import avatar from '../assets/images/zanda_avatar.jpg';
 import Layout from '../components/Layout';
 
 // import { Link } from 'gatsby';
@@ -14,20 +14,28 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
-          <h1 className="mb-0 resumeTitle">
-            {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
-          </h1>
-          <div className="subheading mb-5">
-            {config.address} · {config.phone} · 
-            <a href={`mailto:${config.email}`}>{config.email}</a>
+          <div className="zz-heading-container">
+            <img
+              className="zz-img-header img-fluid rounded-circle mb-2"
+              src={avatar}
+              alt=""
+            />
+            <h1 className="mb-0 zz-resumeTitle">
+              {config.firstName}
+              <span className="text-primary">{config.lastName}</span>
+            </h1>
+            <div className="zz-subheading subheading mb-5">
+              {config.address} · {config.phone}{' '}
+              <span className="zz-seperator">· </span>
+              <a href={`mailto:${config.email}`}>{config.email}</a>
+            </div>
           </div>
           <p className="lead mb-5">
             I am a software developer with 4+ years of industry experience. I am
-            knowledgeable in Angular, CSS, HTML, C# and SQL. I have demonstrated history of
-            working with Selenium WebDriver, Ready!Api and other tools for
-            automated testing. I've finished a Master's Degree focused in IT
-            project management.
+            knowledgeable in Angular, CSS, HTML, C# and SQL. I have demonstrated
+            history of working with Selenium WebDriver, Ready!Api and other
+            tools for automated testing. I've finished a Master's Degree focused
+            in IT project management.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {

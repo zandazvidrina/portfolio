@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#20c997',
+  manifestThemeColor: '#20c997',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/icons/panda.ico',
   firstName: 'Zanda',
