@@ -86,8 +86,10 @@ const IndexPage = () => (
                 </li>
                 <li>Use JIRA for bug tracking</li>
                 <li>
-                  For version control use Mercurial for continuous integration
-                  use Jenkins and Teamcity
+                  Use Mercurial for version control
+                </li>
+                <li>
+                  use Jenkins and Teamcity for continuous integration
                 </li>
                 <li>
                   Use Angular Router to enable navigation from one view to the
