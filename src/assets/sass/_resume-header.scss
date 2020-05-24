@@ -1,5 +1,6 @@
 .zz-resumeTitle {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 .zz-img-header {
   max-width: 10rem;
@@ -7,7 +8,8 @@
   border: 0.8rem solid fade-out($primary, 0.7);
 }
 .zz-heading-container,
-.zz-subheading {
+.zz-subheading,
+.zz-address-phone {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,8 +17,24 @@
 .zz-separator {
   display: none;
 }
+@media (min-width: $size-sm) {
+  .zz-address-phone {
+    display: inline-block;
+  }
+  .zz-separator:first-of-type{
+      display: inline-block;
+  }
+  .zz-resumeTitle {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+}
 @media (min-width: $size-lg) {
-  .zz-heading-container, .zz-subheading {
+    .zz-resumeTitle {
+        font-size: 6rem;
+      }
+  .zz-heading-container,
+  .zz-subheading {
     display: block;
   }
   .zz-img-header {
