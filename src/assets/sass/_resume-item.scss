@@ -26,3 +26,10 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+@media (max-width: $size-sm) {
+  .resume-section.p-4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
