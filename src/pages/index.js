@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Sidebar />
     <div className="container-fluid p-0">
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-4 p-lg-5 d-flex align-items-center"
         id="about"
       >
         <div className="w-100">
@@ -26,7 +26,7 @@ const IndexPage = () => (
             </h1>
             <div className="zz-subheading subheading mb-5">
               {config.address} · {config.phone}{' '}
-              <span className="zz-seperator">· </span>
+              <span className="zz-separator">· </span>
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
           </div>
@@ -53,7 +53,7 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        className="resume-section p-4 p-lg-5 d-flex justify-content-center"
         id="experience"
       >
         <div className="w-100">
@@ -238,7 +238,7 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-4 p-lg-5 d-flex align-items-center"
         id="education"
       >
         <div className="w-100">
@@ -286,7 +286,7 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-4 p-lg-5 d-flex align-items-center"
         id="skills"
       >
         <div className="w-100">
@@ -315,13 +315,24 @@ const IndexPage = () => (
               <i class="fab fa-yarn"></i>
             </li>
           </ul>
+          <div className="subheading mb-3">Workflow</div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Responsive Design
+            </li>
+          </ul>
         </div>
       </section>
 
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-4 p-lg-5 d-flex align-items-center"
         id="interests"
       >
         <div className="w-100">
