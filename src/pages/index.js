@@ -315,7 +315,7 @@ const IndexPage = () => (
               <i className="fab fa-sass"></i>
             </li>
             <li className="list-inline-item">
-              <i class="fab fa-yarn"></i>
+              <i className="fab fa-yarn"></i>
             </li>
           </ul>
           <div className="subheading mb-3">Workflow</div>
