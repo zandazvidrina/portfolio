@@ -3,7 +3,8 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
@@ -26,7 +27,6 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
-
 @media (max-width: $size-sm) {
   .resume-section.p-4 {
     padding-left: 1rem !important;
