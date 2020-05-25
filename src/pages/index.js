@@ -34,11 +34,11 @@ const IndexPage = () => (
             </div>
           </div>
           <p className="lead mb-5">
-          Software developer with more than 4 years of industry 
-          experience. Knowledgeable in Angular, CSS, HTML, C#, and SQL. 
-          Demonstrated history of working with Selenium WebDriver, HP UFT and 
-          other tools for automated testing. Finished a master’s degree focused
-           on IT project management.
+            Software developer with more than 4 years of industry experience.
+            Knowledgeable in Angular, CSS, HTML, C#, and SQL. Demonstrated
+            history of working with Selenium WebDriver, HP UFT and other tools
+            for automated testing. Finished a master’s degree focused on IT
+            project management.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -66,14 +66,35 @@ const IndexPage = () => (
               <h3 className="mb-0">Full stack developer</h3>
               <div className="subheading mb-3">Trade Me</div>
               <p>
-              Create new features for Trade Me platform using Angular. Make Responsive Web Designs and think about accessibility. 
-              Write and maintain unit tests. Use RxJS Observables to handle multiple values over time. Make code changes to API 
-              and legacy code using VB, C# and ASP.NET. Use Mercurial for version control. Use Angular Router to enable navigation from one view to the next. Monitor errors in Sentry. 
-	              </p>
-                <p>
-                <strong>Tech stack: Angular <span className="fa fa-star"></span> Typescript <span className="fa fa-star"></span> HTML <span className="fa fa-star"></span> CSS <span className="fa fa-star"></span> JavaScript <span className="fa fa-star"></span> Sass <span className="fa fa-star"></span> RxJs <span className="fa fa-star"></span> NgRx <span className="fa fa-star"></span> 
-                  Jest <span className="fa fa-star"></span> Marbles <span className="fa fa-star"></span> C# <span className="fa fa-star"></span> VB.NET <span className="fa fa-star"></span> ASP.NET <span className="fa fa-star"></span> WebAPI <span className="fa fa-star"></span> SQL Server <span className="fa fa-star"></span> Mercurial <span className="fa fa-star"></span> Scrum</strong>
-                </p>
+                Create new features for Trade Me platform using Angular. Make
+                Responsive Web Designs and think about accessibility. Write and
+                maintain unit tests. Use RxJS Observables to handle multiple
+                values over time. Make code changes to API and legacy code using
+                VB, C# and ASP.NET. Use Mercurial for version control. Use
+                Angular Router to enable navigation from one view to the next.
+                Monitor errors in Sentry.
+              </p>
+              <p>
+                <strong>
+                  Tech stack: Angular <span className="fa fa-star"></span>
+                  Typescript <span className="fa fa-star"></span>
+                  HTML <span className="fa fa-star"></span>
+                  CSS <span className="fa fa-star"></span>
+                  JavaScript <span className="fa fa-star"></span>
+                  Sass <span className="fa fa-star"></span>
+                  RxJs <span className="fa fa-star"></span>
+                  NgRx <span className="fa fa-star"></span>
+                  Jest <span className="fa fa-star"></span>
+                  Marbles <span className="fa fa-star"></span>
+                  C# <span className="fa fa-star"></span>
+                  VB.NET <span className="fa fa-star"></span>
+                  ASP.NET <span className="fa fa-star"></span>
+                  WebAPI <span className="fa fa-star"></span>
+                  SQL Server <span className="fa fa-star"></span>
+                  Mercurial <span className="fa fa-star"></span>
+                  Scrum
+                </strong>
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">October 2019 - Present</span>
@@ -84,18 +105,38 @@ const IndexPage = () => (
               <h3 className="mb-0">Test Analyst</h3>
               <div className="subheading mb-3">Trade Me</div>
               <p>
-              Manage testing practices for an accommodation service provider. 
-              Setup test automation environments from scratch using Selenium Webdriver and ReadyAPI. 
-              Plan and execute manual testing for projects including functional, regression, API testing. 
-              Create and maintain API and UI automation tests. Use Mercurial for code base versioning and branching. 
-              Configure and use Jenkins for continuous integration for UI automation. Deploy to production and monitoring errors. 
-              Write SQL scripts to support testing.
-	              </p>
-                <p>
-                <strong>Tech stack: C# <span className="fa fa-star"></span> .Net <span className="fa fa-star"></span> Selenium Webdriver <span className="fa fa-star"></span> Xunit <span className="fa fa-star"></span> Specflow <span className="fa fa-star"></span> React <span className="fa fa-star"></span> SQL Server <span className="fa fa-star"></span> Jenkins <span className="fa fa-star"></span> 
-                  Teamcity <span className="fa fa-star"></span> Jira <span className="fa fa-star"></span> Agile <span className="fa fa-star"></span> Kanban <span className="fa fa-star"></span> Gherkin <span className="fa fa-star"></span> Splunk <span className="fa fa-star"></span> POM modelling <span className="fa fa-star"></span> Xpath <span className="fa fa-star"></span> CSS <span className="fa fa-star"></span> Postman <span className="fa fa-star"></span>
-                   Powershell <span className="fa fa-star"></span> ReadyAPI</strong>
-                </p>
+                Manage testing practices for an accommodation service provider.
+                Setup test automation environments from scratch using Selenium
+                Webdriver and ReadyAPI. Plan and execute manual testing for
+                projects including functional, regression, API testing. Create
+                and maintain API and UI automation tests. Use Mercurial for code
+                base versioning and branching. Configure and use Jenkins for
+                continuous integration for UI automation. Deploy to production
+                and monitoring errors. Write SQL scripts to support testing.
+              </p>
+              <p>
+                <strong>
+                  Tech stack: C# <span className="fa fa-star"></span> .Net{' '}
+                  <span className="fa fa-star"></span> Selenium Webdriver{' '}
+                  <span className="fa fa-star"></span> Xunit{' '}
+                  <span className="fa fa-star"></span> Specflow{' '}
+                  <span className="fa fa-star"></span> React{' '}
+                  <span className="fa fa-star"></span> SQL Server{' '}
+                  <span className="fa fa-star"></span> Jenkins{' '}
+                  <span className="fa fa-star"></span>
+                  Teamcity <span className="fa fa-star"></span> Jira{' '}
+                  <span className="fa fa-star"></span> Agile{' '}
+                  <span className="fa fa-star"></span> Kanban{' '}
+                  <span className="fa fa-star"></span> Gherkin{' '}
+                  <span className="fa fa-star"></span> Splunk{' '}
+                  <span className="fa fa-star"></span> POM modelling{' '}
+                  <span className="fa fa-star"></span> Xpath{' '}
+                  <span className="fa fa-star"></span> CSS{' '}
+                  <span className="fa fa-star"></span> Postman{' '}
+                  <span className="fa fa-star"></span>
+                  Powershell <span className="fa fa-star"></span> ReadyAPI
+                </strong>
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">March 2018 - October 2019</span>
@@ -107,23 +148,34 @@ const IndexPage = () => (
               <h3 className="mb-0">Test Analyst</h3>
               <div className="subheading mb-3">Linedata</div>
               <p>
-              Perform complex tests for Financial asset management platform. Maintain the company's 
-              automation test suite and add new tests to it using HP UFT. 
-              Create test plans based on the specification and other QA documentation. Work in Scrum teams
-               using and work closely with the development team and business analysts. 
-              Work with Windows services and real-time data using Bloomberg Terminal and Web Services. 
-              Configure remote servers and deploy new builds
-	              </p>
-                <p>
-                <strong>Tech stack: FinTech <span className="fa fa-star"></span> Bloomberg <span className="fa fa-star"></span> Asset Management <span className="fa fa-star"></span> PL/SQL <span className="fa fa-star"></span> HP UFT <span className="fa fa-star"></span> 
-                  Windows Services <span className="fa fa-star"></span> Web Services <span className="fa fa-star"></span> Remote servers <span className="fa fa-star"></span> Tortoise Svn <span className="fa fa-star"></span> Agile <span className="fa fa-star"></span> Scrum</strong>
-                </p>
+                Perform complex tests for Financial asset management platform.
+                Maintain the company's automation test suite and add new tests
+                to it using HP UFT. Create test plans based on the specification
+                and other QA documentation. Work in Scrum teams using and work
+                closely with the development team and business analysts. Work
+                with Windows services and real-time data using Bloomberg
+                Terminal and Web Services. Configure remote servers and deploy
+                new builds
+              </p>
+              <p>
+                <strong>
+                  Tech stack: FinTech <span className="fa fa-star"></span>{' '}
+                  Bloomberg <span className="fa fa-star"></span> Asset
+                  Management <span className="fa fa-star"></span> PL/SQL{' '}
+                  <span className="fa fa-star"></span> HP UFT{' '}
+                  <span className="fa fa-star"></span>
+                  Windows Services <span className="fa fa-star"></span> Web
+                  Services <span className="fa fa-star"></span> Remote servers{' '}
+                  <span className="fa fa-star"></span> Tortoise Svn{' '}
+                  <span className="fa fa-star"></span> Agile{' '}
+                  <span className="fa fa-star"></span> Scrum
+                </strong>
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">July 2015 - July 2017</span>
             </div>
           </div>
-
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
