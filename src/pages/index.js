@@ -26,9 +26,9 @@ const IndexPage = () => (
             </h1>
             <div className="zz-subheading subheading mb-5">
               <div className="zz-address-phone">
-                {config.address} <span className="zz-separator">· </span>
+                {config.address} <span className="zz-separator">·&nbsp;</span>
                 <span>{config.phone} </span>
-                <span className="zz-separator">· </span>
+                <span className="zz-separator">·&nbsp;</span>
               </div>
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
@@ -71,7 +71,8 @@ const IndexPage = () => (
               and legacy code using VB, C# and ASP.NET. Use Mercurial for version control. Use Angular Router to enable navigation from one view to the next. Monitor errors in Sentry. 
 	              </p>
                 <p>
-                <strong>Tech stack: Angular ♦ Typescript ♦ HTML ♦ CSS ♦ JavaScript ♦ Sass ♦ RxJs ♦ NgRx ♦ Jest ♦ Marbles ♦ C# ♦ VB.NET ♦ ASP.NET ♦ WebAPI ♦ SQL Server ♦ Mercurial ♦ Scrum</strong>
+                <strong>Tech stack: Angular <span class="fa fa-star"></span> Typescript <span class="fa fa-star"></span> HTML <span class="fa fa-star"></span> CSS <span class="fa fa-star"></span> JavaScript <span class="fa fa-star"></span> Sass <span class="fa fa-star"></span> RxJs <span class="fa fa-star"></span> NgRx <span class="fa fa-star"></span> 
+                  Jest <span class="fa fa-star"></span> Marbles <span class="fa fa-star"></span> C# <span class="fa fa-star"></span> VB.NET <span class="fa fa-star"></span> ASP.NET <span class="fa fa-star"></span> WebAPI <span class="fa fa-star"></span> SQL Server <span class="fa fa-star"></span> Mercurial <span class="fa fa-star"></span> Scrum</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
@@ -91,8 +92,9 @@ const IndexPage = () => (
               Write SQL scripts to support testing.
 	              </p>
                 <p>
-                <strong>Tech stack: C# ♦ .Net ♦ Selenium Webdriver ♦ Xunit ♦ Specflow ♦ React ♦ SQL Server ♦ Jenkins ♦ Teamcity ♦ Jira ♦ Agile ♦ 
-                  Kanban ♦ Gherkin ♦ Splunk ♦ POM modelling ♦ Xpath ♦ CSS ♦ Postman ♦ Powershell ♦ ReadyAPI</strong>
+                <strong>Tech stack: C# <span class="fa fa-star"></span> .Net <span class="fa fa-star"></span> Selenium Webdriver <span class="fa fa-star"></span> Xunit <span class="fa fa-star"></span> Specflow <span class="fa fa-star"></span> React <span class="fa fa-star"></span> SQL Server <span class="fa fa-star"></span> Jenkins <span class="fa fa-star"></span> 
+                  Teamcity <span class="fa fa-star"></span> Jira <span class="fa fa-star"></span> Agile <span class="fa fa-star"></span> Kanban <span class="fa fa-star"></span> Gherkin <span class="fa fa-star"></span> Splunk <span class="fa fa-star"></span> POM modelling <span class="fa fa-star"></span> Xpath <span class="fa fa-star"></span> CSS <span class="fa fa-star"></span> Postman <span class="fa fa-star"></span>
+                   Powershell <span class="fa fa-star"></span> ReadyAPI</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
@@ -113,8 +115,8 @@ const IndexPage = () => (
               Configure remote servers and deploy new builds
 	              </p>
                 <p>
-                <strong>Tech stack: FinTech ♦ Bloomberg ♦ Asset Management ♦ PL/SQL ♦ HP UFT ♦ Windows Services ♦ 
-                  Web Services ♦ Remote servers ♦ Tortoise Svn ♦ Agile ♦ Scrum</strong>
+                <strong>Tech stack: FinTech <span class="fa fa-star"></span> Bloomberg <span class="fa fa-star"></span> Asset Management <span class="fa fa-star"></span> PL/SQL <span class="fa fa-star"></span> HP UFT <span class="fa fa-star"></span> 
+                  Windows Services <span class="fa fa-star"></span> Web Services <span class="fa fa-star"></span> Remote servers <span class="fa fa-star"></span> Tortoise Svn <span class="fa fa-star"></span> Agile <span class="fa fa-star"></span> Scrum</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
