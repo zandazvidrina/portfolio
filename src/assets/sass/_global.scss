@@ -80,6 +80,6 @@ p.lead {
 }
 
 .fa-star {
-  color: $primary;
-  opacity: 60%;
+  color: $primary !important;
+  opacity: 60% !important; 
 }
