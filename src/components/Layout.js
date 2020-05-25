@@ -30,7 +30,6 @@ class Layout extends Component {
               ]}
             >
               <link rel="icon" href={panda}/>
-              <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></link>
               <html lang="en" />
             </Helmet>
             <div className={'main-body'}>{children}</div>
