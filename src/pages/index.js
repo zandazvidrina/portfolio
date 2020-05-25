@@ -71,8 +71,8 @@ const IndexPage = () => (
               and legacy code using VB, C# and ASP.NET. Use Mercurial for version control. Use Angular Router to enable navigation from one view to the next. Monitor errors in Sentry. 
 	              </p>
                 <p>
-                <strong>Tech stack: Angular <span class="fa fa-star"></span> Typescript <span class="fa fa-star"></span> HTML <span class="fa fa-star"></span> CSS <span class="fa fa-star"></span> JavaScript <span class="fa fa-star"></span> Sass <span class="fa fa-star"></span> RxJs <span class="fa fa-star"></span> NgRx <span class="fa fa-star"></span> 
-                  Jest <span class="fa fa-star"></span> Marbles <span class="fa fa-star"></span> C# <span class="fa fa-star"></span> VB.NET <span class="fa fa-star"></span> ASP.NET <span class="fa fa-star"></span> WebAPI <span class="fa fa-star"></span> SQL Server <span class="fa fa-star"></span> Mercurial <span class="fa fa-star"></span> Scrum</strong>
+                <strong>Tech stack: Angular <span className="fa fa-star"></span> Typescript <span className="fa fa-star"></span> HTML <span className="fa fa-star"></span> CSS <span className="fa fa-star"></span> JavaScript <span className="fa fa-star"></span> Sass <span className="fa fa-star"></span> RxJs <span className="fa fa-star"></span> NgRx <span className="fa fa-star"></span> 
+                  Jest <span className="fa fa-star"></span> Marbles <span className="fa fa-star"></span> C# <span className="fa fa-star"></span> VB.NET <span className="fa fa-star"></span> ASP.NET <span className="fa fa-star"></span> WebAPI <span className="fa fa-star"></span> SQL Server <span className="fa fa-star"></span> Mercurial <span className="fa fa-star"></span> Scrum</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
@@ -92,9 +92,9 @@ const IndexPage = () => (
               Write SQL scripts to support testing.
 	              </p>
                 <p>
-                <strong>Tech stack: C# <span class="fa fa-star"></span> .Net <span class="fa fa-star"></span> Selenium Webdriver <span class="fa fa-star"></span> Xunit <span class="fa fa-star"></span> Specflow <span class="fa fa-star"></span> React <span class="fa fa-star"></span> SQL Server <span class="fa fa-star"></span> Jenkins <span class="fa fa-star"></span> 
-                  Teamcity <span class="fa fa-star"></span> Jira <span class="fa fa-star"></span> Agile <span class="fa fa-star"></span> Kanban <span class="fa fa-star"></span> Gherkin <span class="fa fa-star"></span> Splunk <span class="fa fa-star"></span> POM modelling <span class="fa fa-star"></span> Xpath <span class="fa fa-star"></span> CSS <span class="fa fa-star"></span> Postman <span class="fa fa-star"></span>
-                   Powershell <span class="fa fa-star"></span> ReadyAPI</strong>
+                <strong>Tech stack: C# <span className="fa fa-star"></span> .Net <span className="fa fa-star"></span> Selenium Webdriver <span className="fa fa-star"></span> Xunit <span className="fa fa-star"></span> Specflow <span className="fa fa-star"></span> React <span className="fa fa-star"></span> SQL Server <span className="fa fa-star"></span> Jenkins <span className="fa fa-star"></span> 
+                  Teamcity <span className="fa fa-star"></span> Jira <span className="fa fa-star"></span> Agile <span className="fa fa-star"></span> Kanban <span className="fa fa-star"></span> Gherkin <span className="fa fa-star"></span> Splunk <span className="fa fa-star"></span> POM modelling <span className="fa fa-star"></span> Xpath <span className="fa fa-star"></span> CSS <span className="fa fa-star"></span> Postman <span className="fa fa-star"></span>
+                   Powershell <span className="fa fa-star"></span> ReadyAPI</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
@@ -115,8 +115,8 @@ const IndexPage = () => (
               Configure remote servers and deploy new builds
 	              </p>
                 <p>
-                <strong>Tech stack: FinTech <span class="fa fa-star"></span> Bloomberg <span class="fa fa-star"></span> Asset Management <span class="fa fa-star"></span> PL/SQL <span class="fa fa-star"></span> HP UFT <span class="fa fa-star"></span> 
-                  Windows Services <span class="fa fa-star"></span> Web Services <span class="fa fa-star"></span> Remote servers <span class="fa fa-star"></span> Tortoise Svn <span class="fa fa-star"></span> Agile <span class="fa fa-star"></span> Scrum</strong>
+                <strong>Tech stack: FinTech <span className="fa fa-star"></span> Bloomberg <span className="fa fa-star"></span> Asset Management <span className="fa fa-star"></span> PL/SQL <span className="fa fa-star"></span> HP UFT <span className="fa fa-star"></span> 
+                  Windows Services <span className="fa fa-star"></span> Web Services <span className="fa fa-star"></span> Remote servers <span className="fa fa-star"></span> Tortoise Svn <span className="fa fa-star"></span> Agile <span className="fa fa-star"></span> Scrum</strong>
                 </p>
             </div>
             <div className="resume-date text-md-right">
