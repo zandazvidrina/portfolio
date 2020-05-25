@@ -76,22 +76,22 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: Angular <span className="fa fa-star"></span>
-                  Typescript <span className="fa fa-star"></span>
-                  HTML <span className="fa fa-star"></span>
-                  CSS <span className="fa fa-star"></span>
-                  JavaScript <span className="fa fa-star"></span>
-                  Sass <span className="fa fa-star"></span>
-                  RxJs <span className="fa fa-star"></span>
-                  NgRx <span className="fa fa-star"></span>
-                  Jest <span className="fa fa-star"></span>
-                  Marbles <span className="fa fa-star"></span>
-                  C# <span className="fa fa-star"></span>
-                  VB.NET <span className="fa fa-star"></span>
-                  ASP.NET <span className="fa fa-star"></span>
-                  WebAPI <span className="fa fa-star"></span>
-                  SQL Server <span className="fa fa-star"></span>
-                  Mercurial <span className="fa fa-star"></span>
+                  Tech stack: Angular <i className="fas fa-star"></i>
+                  Typescript <i className="fas fa-star"></i>
+                  HTML <i className="fas fa-star"></i>
+                  CSS <i className="fas fa-star"></i>
+                  JavaScript <i className="fas fa-star"></i>
+                  Sass <i className="fas fa-star"></i>
+                  RxJs <i className="fas fa-star"></i>
+                  NgRx <i className="fas fa-star"></i>
+                  Jest <i className="fas fa-star"></i>
+                  Marbles <i className="fas fa-star"></i>
+                  C# <i className="fas fa-star"></i>
+                  VB.NET <i className="fas fa-star"></i>
+                  ASP.NET <i className="fas fa-star"></i>
+                  WebAPI <i className="fas fa-star"></i>
+                  SQL Server <i className="fas fa-star"></i>
+                  Mercurial <i className="fas fa-star"></i>
                   Scrum
                 </strong>
               </p>
@@ -116,25 +116,25 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: C# <span className="fa fa-star"></span> .Net{' '}
-                  <span className="fa fa-star"></span> Selenium Webdriver{' '}
-                  <span className="fa fa-star"></span> Xunit{' '}
-                  <span className="fa fa-star"></span> Specflow{' '}
-                  <span className="fa fa-star"></span> React{' '}
-                  <span className="fa fa-star"></span> SQL Server{' '}
-                  <span className="fa fa-star"></span> Jenkins{' '}
-                  <span className="fa fa-star"></span>
-                  Teamcity <span className="fa fa-star"></span> Jira{' '}
-                  <span className="fa fa-star"></span> Agile{' '}
-                  <span className="fa fa-star"></span> Kanban{' '}
-                  <span className="fa fa-star"></span> Gherkin{' '}
-                  <span className="fa fa-star"></span> Splunk{' '}
-                  <span className="fa fa-star"></span> POM modelling{' '}
-                  <span className="fa fa-star"></span> Xpath{' '}
-                  <span className="fa fa-star"></span> CSS{' '}
-                  <span className="fa fa-star"></span> Postman{' '}
-                  <span className="fa fa-star"></span>
-                  Powershell <span className="fa fa-star"></span> ReadyAPI
+                  Tech stack: C# <i className="fas fa-star"></i> .Net{' '}
+                  <i className="fas fa-star"></i> Selenium Webdriver{' '}
+                  <i className="fas fa-star"></i> Xunit{' '}
+                  <i className="fas fa-star"></i> Specflow{' '}
+                  <i className="fas fa-star"></i> React{' '}
+                  <i className="fas fa-star"></i> SQL Server{' '}
+                  <i className="fas fa-star"></i> Jenkins{' '}
+                  <i className="fas fa-star"></i>
+                  Teamcity <i className="fas fa-star"></i> Jira{' '}
+                  <i className="fas fa-star"></i> Agile{' '}
+                  <i className="fas fa-star"></i> Kanban{' '}
+                  <i className="fas fa-star"></i> Gherkin{' '}
+                  <i className="fas fa-star"></i> Splunk{' '}
+                  <i className="fas fa-star"></i> POM modelling{' '}
+                  <i className="fas fa-star"></i> Xpath{' '}
+                  <i className="fas fa-star"></i> CSS{' '}
+                  <i className="fas fa-star"></i> Postman{' '}
+                  <i className="fas fa-star"></i>
+                  Powershell <i className="fas fa-star"></i> ReadyAPI
                 </strong>
               </p>
             </div>
@@ -159,16 +159,16 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: FinTech <span className="fa fa-star"></span>{' '}
-                  Bloomberg <span className="fa fa-star"></span> Asset
-                  Management <span className="fa fa-star"></span> PL/SQL{' '}
-                  <span className="fa fa-star"></span> HP UFT{' '}
-                  <span className="fa fa-star"></span>
-                  Windows Services <span className="fa fa-star"></span> Web
-                  Services <span className="fa fa-star"></span> Remote servers{' '}
-                  <span className="fa fa-star"></span> Tortoise Svn{' '}
-                  <span className="fa fa-star"></span> Agile{' '}
-                  <span className="fa fa-star"></span> Scrum
+                  Tech stack: FinTech <i className="fas fa-star"></i>{' '}
+                  Bloomberg <i className="fas fa-star"></i> Asset
+                  Management <i className="fas fa-star"></i> PL/SQL{' '}
+                  <i className="fas fa-star"></i> HP UFT{' '}
+                  <i className="fas fa-star"></i>
+                  Windows Services <i className="fas fa-star"></i> Web
+                  Services <i className="fas fa-star"></i> Remote servers{' '}
+                  <i className="fas fa-star"></i> Tortoise Svn{' '}
+                  <i className="fas fa-star"></i> Agile{' '}
+                  <i className="fas fa-star"></i> Scrum
                 </strong>
               </p>
             </div>
