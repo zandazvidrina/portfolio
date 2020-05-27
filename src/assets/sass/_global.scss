@@ -81,5 +81,15 @@ p.lead {
 
 .fas.fa-star {
   color: $primary;
-  opacity: 0.6;
+  opacity: 0.5;
+  padding-right: 4px;
+}
+
+.zz-techStackSpan:last-of-type {
+  .fas.fa-star{
+  display: none;
+  }
+}
+.zz-techStack-skill {
+  padding-right: 4px;
 }

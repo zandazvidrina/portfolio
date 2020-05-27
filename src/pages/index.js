@@ -5,6 +5,21 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+
+const techStackList = [['Angular','Typescript','HTML','CSS','JavaScript','JavaScript','Sass',
+'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Mercurial','Scrum'],
+['C#','.Net','Selenium Webdriver','Xunit','Specflow','React','SQL Server','Jenkins','Teamcity',
+'Jira','Agile','Kanban','Gherkin','Splunk','POM modelling','Xpath','CSS','Postman','Powershell','ReadyAPI'],
+['FinTech','Bloomberg','Asset Management','PL/SQL','HP UFT','Windows Services','Web Services','Remote servers',
+'Tortoise Svn','Agile','Scrum']];
+
+const techStack = techStackList.map((list) =>list.map((value) =>
+<span className="zz-techStackSpan"><span className="zz-techStack-skill">{value}</span>
+<i className="fas fa-star"></i>
+</span>
+));
+
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -27,8 +42,8 @@ const IndexPage = () => (
             <div className="zz-subheading subheading mb-5">
               <div className="zz-address-phone">
                 {config.address} <span className="zz-separator">·&nbsp;</span>
-                <span>{config.phone} </span>
-                <span className="zz-separator">·&nbsp;</span>
+                <a href={`tel:${config.phone}`}>{config.phone}</a>
+                <span className="zz-separator">&nbsp;·&nbsp;</span>
               </div>
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
@@ -76,23 +91,8 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: Angular <i className="fas fa-star"></i>
-                  Typescript <i className="fas fa-star"></i>
-                  HTML <i className="fas fa-star"></i>
-                  CSS <i className="fas fa-star"></i>
-                  JavaScript <i className="fas fa-star"></i>
-                  Sass <i className="fas fa-star"></i>
-                  RxJs <i className="fas fa-star"></i>
-                  NgRx <i className="fas fa-star"></i>
-                  Jest <i className="fas fa-star"></i>
-                  Marbles <i className="fas fa-star"></i>
-                  C# <i className="fas fa-star"></i>
-                  VB.NET <i className="fas fa-star"></i>
-                  ASP.NET <i className="fas fa-star"></i>
-                  WebAPI <i className="fas fa-star"></i>
-                  SQL Server <i className="fas fa-star"></i>
-                  Mercurial <i className="fas fa-star"></i>
-                  Scrum
+                  Tech stack:&nbsp;
+                  {techStack[0]}
                 </strong>
               </p>
             </div>
@@ -116,25 +116,8 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: C# <i className="fas fa-star"></i> .Net{' '}
-                  <i className="fas fa-star"></i> Selenium Webdriver{' '}
-                  <i className="fas fa-star"></i> Xunit{' '}
-                  <i className="fas fa-star"></i> Specflow{' '}
-                  <i className="fas fa-star"></i> React{' '}
-                  <i className="fas fa-star"></i> SQL Server{' '}
-                  <i className="fas fa-star"></i> Jenkins{' '}
-                  <i className="fas fa-star"></i>
-                  Teamcity <i className="fas fa-star"></i> Jira{' '}
-                  <i className="fas fa-star"></i> Agile{' '}
-                  <i className="fas fa-star"></i> Kanban{' '}
-                  <i className="fas fa-star"></i> Gherkin{' '}
-                  <i className="fas fa-star"></i> Splunk{' '}
-                  <i className="fas fa-star"></i> POM modelling{' '}
-                  <i className="fas fa-star"></i> Xpath{' '}
-                  <i className="fas fa-star"></i> CSS{' '}
-                  <i className="fas fa-star"></i> Postman{' '}
-                  <i className="fas fa-star"></i>
-                  Powershell <i className="fas fa-star"></i> ReadyAPI
+                  Tech stack:&nbsp;
+                  {techStack[1]}
                 </strong>
               </p>
             </div>
@@ -159,16 +142,8 @@ const IndexPage = () => (
               </p>
               <p>
                 <strong>
-                  Tech stack: FinTech <i className="fas fa-star"></i>{' '}
-                  Bloomberg <i className="fas fa-star"></i> Asset
-                  Management <i className="fas fa-star"></i> PL/SQL{' '}
-                  <i className="fas fa-star"></i> HP UFT{' '}
-                  <i className="fas fa-star"></i>
-                  Windows Services <i className="fas fa-star"></i> Web
-                  Services <i className="fas fa-star"></i> Remote servers{' '}
-                  <i className="fas fa-star"></i> Tortoise Svn{' '}
-                  <i className="fas fa-star"></i> Agile{' '}
-                  <i className="fas fa-star"></i> Scrum
+                  Tech stack:&nbsp;
+                  {techStack[2]}
                 </strong>
               </p>
             </div>

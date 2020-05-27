@@ -68,9 +68,9 @@ toggleNavbar = ()=>{
             {tabs.map((tab, i) => {
               const { href, content } = tab;
               return (
-                <li className="nav-item" key={href}>
+                <li className="nav-item" key={href} onClick={this.toggleNavbar}>
                   <Scroll type="id" element={href}>
-                    <a onClick={this.toggleNavbar} className="nav-link" href={`#${href}`}>
+                    <a className="nav-link" href={`#${href}`}>
                       {content}
                     </a>
                   </Scroll>
