@@ -1,10 +1,12 @@
 import React from 'react';
 import avatar from '../assets/images/zanda_avatar.jpg';
 import Layout from '../components/Layout';
+import ExperienceComponent from '../components/ExperienceComponent';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import experiences from '../assets/data/ExperienceData';
 
 const techStackList = [['Angular','Typescript','HTML','CSS','JavaScript','JavaScript','Sass',
 'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Mercurial','Scrum'],
@@ -74,107 +76,15 @@ const IndexPage = () => (
         className="resume-section p-4 p-lg-5 d-flex justify-content-center"
         id="experience"
       >
+        
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Full stack developer</h3>
-              <div className="subheading mb-3">Trade Me</div>
-              <p>
-                Create new features for Trade Me platform using Angular. Make
-                Responsive Web Designs and think about accessibility. Write and
-                maintain unit tests. Use RxJS Observables to handle multiple
-                values over time. Make code changes to API and legacy code using
-                VB, C# and ASP.NET. Use Mercurial for version control. Use
-                Angular Router to enable navigation from one view to the next.
-                Monitor errors in Sentry.
-              </p>
-              <p>
-                <strong>
-                  Tech stack:&nbsp;
-                  {techStack[0]}
-                </strong>
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">October 2019 - Present</span>
-            </div>
+         {experiences.map((experience)=>
+         <ExperienceComponent data={experience} />
+         )}
+         
+            
           </div>
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Test Analyst</h3>
-              <div className="subheading mb-3">Trade Me</div>
-              <p>
-                Manage testing practices for an accommodation service provider.
-                Setup test automation environments from scratch using Selenium
-                Webdriver and ReadyAPI. Plan and execute manual testing for
-                projects including functional, regression, API testing. Create
-                and maintain API and UI automation tests. Use Mercurial for code
-                base versioning and branching. Configure and use Jenkins for
-                continuous integration for UI automation. Deploy to production
-                and monitoring errors. Write SQL scripts to support testing.
-              </p>
-              <p>
-                <strong>
-                  Tech stack:&nbsp;
-                  {techStack[1]}
-                </strong>
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">March 2018 - October 2019</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Test Analyst</h3>
-              <div className="subheading mb-3">Linedata</div>
-              <p>
-                Perform complex tests for Financial asset management platform.
-                Maintain the company's automation test suite and add new tests
-                to it using HP UFT. Create test plans based on the specification
-                and other QA documentation. Work in Scrum teams using and work
-                closely with the development team and business analysts. Work
-                with Windows services and real-time data using Bloomberg
-                Terminal and Web Services. Configure remote servers and deploy
-                new builds
-              </p>
-              <p>
-                <strong>
-                  Tech stack:&nbsp;
-                  {techStack[2]}
-                </strong>
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2015 - July 2017</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Student Council president</h3>
-              <div className="subheading mb-3">
-                Ventspils University College
-              </div>
-              <p>Main responsibilities:</p>
-              <ul>
-                <li>Manage Student Body and motivating the team</li>
-                <li>Plan the budget</li>
-                <li>Supervise the work of Student Body committees</li>
-                <li>
-                  Attend official meetings with the academic administration
-                </li>
-                <li>Work with students to resolve problems</li>
-                <li>Speaking publicly at school events</li>
-              </ul>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">February 2013 - April 2014</span>
-            </div>
-          </div>
-        </div>
       </section>
 
       <hr className="m-0" />
@@ -299,6 +209,7 @@ const IndexPage = () => (
       <hr className="m-0" />
     </div>
   </Layout>
+  
 );
 
 export default IndexPage;
