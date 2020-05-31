@@ -1,26 +1,12 @@
 import React from 'react';
 import avatar from '../assets/images/zanda_avatar.jpg';
 import Layout from '../components/Layout';
-import ExperienceComponent from '../components/ExperienceComponent';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
-import experiences from '../assets/data/ExperienceData';
-
-const techStackList = [['Angular','Typescript','HTML','CSS','JavaScript','JavaScript','Sass',
-'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Mercurial','Scrum'],
-['C#','.Net','Selenium Webdriver','Xunit','Specflow','React','SQL Server','Jenkins','Teamcity',
-'Jira','Agile','Kanban','Gherkin','Splunk','POM modelling','Xpath','CSS','Postman','Powershell','ReadyAPI'],
-['FinTech','Bloomberg','Asset Management','PL/SQL','HP UFT','Windows Services','Web Services','Remote servers',
-'Tortoise Svn','Agile','Scrum']];
-
-const techStack = techStackList.map((list) =>list.map((value) =>
-<span className="zz-techStackSpan"><span className="zz-techStack-skill">{value}</span>
-<i className="fas fa-star"></i>
-</span>
-));
-
+import {experience_list, education_list} from '../assets/data/ResumeData';
+import { ResumeItem } from '../components/ResumeItem';
 
 const IndexPage = () => (
   <Layout>
@@ -79,8 +65,8 @@ const IndexPage = () => (
         
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-         {experiences.map((experience)=>
-         <ExperienceComponent data={experience} />
+         {experience_list.map((item, i)=>
+         <ResumeItem data = {item} key = {i}/>
          )}
          
             
@@ -95,43 +81,10 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Liepaja University</h3>
-              <div className="subheading mb-3">
-                Master's Degree in IT project management
-              </div>
-              <div>Project Management</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2014 - 2017</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Ventspils University College</h3>
-              <div className="subheading mb-3">
-                Bachelor's degree in Information Technology
-              </div>
-              <div>Computer Science</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2011 - 2014</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Riga State Gymnasium No. 1</h3>
-              <div className="subheading mb-3">High school Diploma</div>
-              <div>Mathematics and Computer Science</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2005 - 2011</span>
-            </div>
-          </div>
+          {education_list.map((item, i)=>
+         <ResumeItem data = {item} key = {i}/>
+         )}
+          
         </div>
       </section>
 
