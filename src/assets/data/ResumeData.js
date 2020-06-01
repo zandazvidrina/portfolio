@@ -24,7 +24,7 @@ export const experience_list = [
     base versioning and branching. Configure and use Jenkins for
     continuous integration for UI automation. Deploy to production
     and monitoring errors. Write SQL scripts to support testing.`],
-    techStack: ['C#','.Net','Selenium Webdriver','Xunit','Specflow','React','SQL Server','Jenkins','Teamcity',
+    techStack: ['C#','.Net','Selenium Webdriver','Xunit','Specflow','React','ASP.NET','MVC','SQL Server','Jenkins','Teamcity',
     'Jira','Agile','Kanban','Gherkin','Splunk','POM modelling','Xpath','CSS','Postman','Powershell','ReadyAPI'],
     period: 'March 2018 - October 2019',
   },
