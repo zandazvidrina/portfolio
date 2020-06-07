@@ -10,7 +10,7 @@ export const experience_list = [
     Angular Router to enable navigation from one view to the next.
     Monitor errors in Sentry.`],
     techStack: ['Angular','Typescript','HTML','CSS','JavaScript','JavaScript','Sass',
-    'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Mercurial','Scrum'],
+    'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Docker','Mercurial','Scrum'],
     period: 'October 2019 - Present',
   },
   {
@@ -25,7 +25,7 @@ export const experience_list = [
     continuous integration for UI automation. Deploy to production
     and monitoring errors. Write SQL scripts to support testing.`],
     techStack: ['C#','.Net','Selenium Webdriver','Xunit','Specflow','React','ASP.NET','MVC','SQL Server','Jenkins','Teamcity',
-    'Jira','Agile','Kanban','Gherkin','Splunk','POM modelling','Xpath','CSS','Postman','Powershell','ReadyAPI'],
+    'Jira','Agile','Kanban','Gherkin','Splunk','POM modelling','Xpath','CSS','Postman','Powershell','ReadyAPI','Google Analytics','Hotjar'],
     period: 'March 2018 - October 2019',
   },
 
