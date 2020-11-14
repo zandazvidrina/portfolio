@@ -37,7 +37,7 @@ const IndexPage = () => (
             </div>
           </div>
           <p className="lead mb-5">
-            Software developer with more than 4 years of industry experience.
+            Software developer with more 5 years of industry experience.
             Knowledgeable in Angular, CSS, HTML, C#, and SQL. Demonstrated
             history of working with Selenium WebDriver, HP UFT and other tools
             for automated testing. Finished a master’s degree focused on IT

@@ -1,22 +1,22 @@
 export const experience_list = [
   {
-    role: 'Software Developer',
+    role: 'Full-stack Software Developer',
     company: 'Trade Me',
     description: [`Create new features for Trade Me platform using Angular. Make
     Responsive Web Designs and think about accessibility. Write and
     maintain unit tests. Use RxJS Observables to handle multiple
     values over time. Make code changes to API and legacy code using
-    VB, C# and ASP.NET. Use Mercurial for version control. Use
-    Angular Router to enable navigation from one view to the next.
+    VB, C# and ASP.NET. Use Mercurial for version control. Use New Relic for observability. 
     Monitor errors in Sentry.`],
     techStack: ['Angular','Typescript','HTML','CSS','JavaScript','JavaScript','Sass',
-    'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Docker','Mercurial','Scrum'],
+    'RxJs','NgRx','Jest','Marbles','C#','VB.NET','ASP.NET','WebAPI','SQL Server','Docker','New Relic','Mercurial','Scrum'],
     period: 'October 2019 - Present',
   },
   {
-    role: 'Test Analyst',
+    role: 'Software engineer in Test',
     company: 'Trade Me',
-    description: [`Manage testing practices for an accommodation service provider.
+    description: [`Manage the testing practices for Holiday Houses 
+    - Trade Me accommodation service provider.
     Setup test automation environments from scratch using Selenium
     Webdriver and ReadyAPI. Plan and execute manual testing for
     projects including functional, regression, API testing. Create
@@ -30,7 +30,7 @@ export const experience_list = [
   },
 
   {
-    role: 'Test Analyst',
+    role: 'Test Engineer',
     company: 'Linedata',
     description: [` Perform complex tests for Financial asset management platform.
     Maintain the company's automation test suite and add new tests
